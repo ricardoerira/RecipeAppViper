@@ -1,0 +1,12 @@
+/* 
+  Strings.strings
+  RecipeAppViper
+
+  Created by Ricardo Erira on 05/07/2023.
+  
+*/
+"GENERAL_ERROR_TITLE" = "Error Alert";
+"GENERAL_ERROR_MESSAGE" = "An error occurred try again later";
+"INTERNET_CONNECTION_MESSAGE" = "Please check your internet connection and try again.";
+"INVALID_URL_ERROR_MESSAGE" = "URL Invalid";
+

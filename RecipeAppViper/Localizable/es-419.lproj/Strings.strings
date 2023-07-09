@@ -1,0 +1,13 @@
+/* 
+  Strings.strings
+  RecipeAppViper
+
+  Created by Ricardo Erira on 05/07/2023.
+  
+*/
+"GENERAL_ERROR_TITLE" = "Alerta Error";
+"GENERAL_ERROR_MESSAGE" = "Se presento un error intenta mas tarde";
+"INTERNET_CONNECTION_MESSAGE" = "Por favor comprueba tu conexion a internet e intenta mas tarde.";
+"HOSTNAME_ERROR_MESSAGE" = "No se pudo encontrar un servidor con el nombre de host especificado.";
+"INVALID_URL_ERROR_MESSAGE" = "URL Invalida";
+

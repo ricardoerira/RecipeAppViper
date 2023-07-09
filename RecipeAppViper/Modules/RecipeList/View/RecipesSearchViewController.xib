@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RecipesSearchViewController" customModule="RecipeAppViper" customModuleProvider="target">
+            <connections>
+                <outlet property="activityIndicator" destination="EJr-A7-mDe" id="S0F-UG-kX3"/>
+                <outlet property="recipesSearchBar" destination="WHZ-D4-5k5" id="roR-LZ-RkG"/>
+                <outlet property="recipesTableView" destination="IVQ-J0-nwP" id="vvB-dn-xZv"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="qaT-h7-TgZ">
+                    <rect key="frame" x="10" y="54" width="394" height="808"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="ekp-40-uHX">
+                            <rect key="frame" x="0.0" y="0.0" width="394" height="31"/>
+                            <subviews>
+                                <searchBar contentMode="redraw" placeholder="Search city" translatesAutoresizingMaskIntoConstraints="NO" id="WHZ-D4-5k5">
+                                    <rect key="frame" x="0.0" y="0.0" width="338.5" height="31"/>
+                                    <color key="backgroundColor" systemColor="systemYellowColor"/>
+                                    <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="0.4187393707" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <textInputTraits key="textInputTraits"/>
+                                    <scopeButtonTitles>
+                                        <string>Title</string>
+                                        <string>Title</string>
+                                    </scopeButtonTitles>
+                                </searchBar>
+                                <button opaque="NO" contentMode="scaleToFill" showsMenuAsPrimaryAction="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gcs-D4-HnV">
+                                    <rect key="frame" x="348.5" y="0.0" width="45.5" height="31"/>
+                                    <buttonConfiguration key="configuration" style="gray" image="magnifyingglass" catalog="system">
+                                        <color key="baseBackgroundColor" systemColor="secondarySystemGroupedBackgroundColor"/>
+                                    </buttonConfiguration>
+                                    <connections>
+                                        <action selector="searchPerform:" destination="-1" eventType="touchUpInside" id="BmA-uK-Cgg"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                        </stackView>
+                        <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" style="grouped" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="IVQ-J0-nwP">
+                            <rect key="frame" x="0.0" y="47" width="394" height="761"/>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            <color key="sectionIndexBackgroundColor" systemColor="systemYellowColor"/>
+                        </tableView>
+                    </subviews>
+                </stackView>
+                <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="EJr-A7-mDe">
+                    <rect key="frame" x="188.5" y="429.5" width="37" height="37"/>
+                </activityIndicatorView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemGray3Color"/>
+            <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="qaT-h7-TgZ" secondAttribute="trailing" constant="10" id="0ce-1f-B4q"/>
+                <constraint firstItem="qaT-h7-TgZ" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="10" id="Dvk-gx-Ch3"/>
+                <constraint firstItem="EJr-A7-mDe" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="fGn-d4-4KG"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="qaT-h7-TgZ" secondAttribute="bottom" id="fnI-x1-a5B"/>
+                <constraint firstItem="qaT-h7-TgZ" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="10" id="gmf-vN-eke"/>
+                <constraint firstItem="EJr-A7-mDe" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="w53-Ud-Cqp"/>
+            </constraints>
+            <point key="canvasLocation" x="139" y="100"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="magnifyingglass" catalog="system" width="128" height="115"/>
+        <systemColor name="secondarySystemGroupedBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGray3Color">
+            <color red="0.7803921568627451" green="0.7803921568627451" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
