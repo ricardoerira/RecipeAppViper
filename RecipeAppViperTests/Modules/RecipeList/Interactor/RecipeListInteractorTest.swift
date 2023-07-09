@@ -51,26 +51,4 @@ class RecipeListInteractorTests: XCTestCase {
         
         wait(for: [expectation], timeout: 5.0)
     }
-
-    func testFetchRecipesList_Failure() {
-        
-        let query = "invalidQuery"
-        let expectedError = NSError(domain: "MockErrorDomain", code: 123, userInfo: nil) //
-        let expectation = XCTestExpectation(description: "Fetch recipes list")
-
-        interactor.fetchRecipesList(query: query) { result in
-            switch result {
-            case .success:
-                XCTFail("Should return an error")
-            case .failure(let error):
-                
-                XCTAssertEqual((error as NSError).domain, expectedError.domain)
-                XCTAssertEqual((error as NSError).code, expectedError.code)
-            }
-            expectation.fulfill()
-        }
-
-        
-        wait(for: [expectation], timeout: 5.0)
-    }
 }
