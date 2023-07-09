@@ -878,7 +878,7 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "B67866EB-BF2D-4015-97D8-DF3AF2E3BAA9"
+            uuid = "1A6642C4-6A3A-4B95-B5C3-BD8D80490DA6"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
@@ -889,149 +889,6 @@
             endingLineNumber = "34"
             landmarkName = "sendRequest(of:url:completion:)"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "B67866EB-BF2D-4015-97D8-DF3AF2E3BAA9 - ff2f180b2686fb91"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "RecipeAppViperTests.MockServiceAPI.sendRequest&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(of: &#x3c4;_0_0.Type, url: Swift.String, completion: (Swift.Result&lt;&#x3c4;_0_0, Swift.Error&gt;) -&gt; ()) -&gt; ()"
-                  moduleName = "RecipeAppViperTests"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/ricardo/Documents/RecipeAppViper/RecipeAppViperTests/Networking/MockServiceAPI.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "56"
-                  endingLineNumber = "56"
-                  offsetFromSymbolStart = "1144">
-               </Location>
-               <Location
-                  uuid = "B67866EB-BF2D-4015-97D8-DF3AF2E3BAA9 - ff2f180b2686fb91"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "RecipeAppViperTests.MockServiceAPI.sendRequest&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(of: &#x3c4;_0_0.Type, url: Swift.String, completion: (Swift.Result&lt;&#x3c4;_0_0, Swift.Error&gt;) -&gt; ()) -&gt; ()"
-                  moduleName = "RecipeAppViperTests"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/ricardo/Documents/RecipeAppViper/RecipeAppViperTests/Networking/MockServiceAPI.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "56"
-                  endingLineNumber = "56"
-                  offsetFromSymbolStart = "1394">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "C9F7285B-FD71-4883-B2D7-FA33AC43AE9A"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "RecipeAppViperTests/Networking/MockServiceAPI.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "52"
-            endingLineNumber = "52"
-            landmarkName = "sendRequest(of:url:completion:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "C9F7285B-FD71-4883-B2D7-FA33AC43AE9A - ff2f180b2686fed8"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "RecipeAppViperTests.MockServiceAPI.sendRequest&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(of: &#x3c4;_0_0.Type, url: Swift.String, completion: (Swift.Result&lt;&#x3c4;_0_0, Swift.Error&gt;) -&gt; ()) -&gt; ()"
-                  moduleName = "RecipeAppViperTests"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/ricardo/Documents/RecipeAppViper/RecipeAppViperTests/Networking/MockServiceAPI.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "31"
-                  endingLineNumber = "31"
-                  offsetFromSymbolStart = "560">
-               </Location>
-               <Location
-                  uuid = "C9F7285B-FD71-4883-B2D7-FA33AC43AE9A - ff2f180b2686fed8"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "RecipeAppViperTests.MockServiceAPI.sendRequest&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(of: &#x3c4;_0_0.Type, url: Swift.String, completion: (Swift.Result&lt;&#x3c4;_0_0, Swift.Error&gt;) -&gt; ()) -&gt; ()"
-                  moduleName = "RecipeAppViperTests"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/ricardo/Documents/RecipeAppViper/RecipeAppViperTests/Networking/MockServiceAPI.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "31"
-                  endingLineNumber = "31"
-                  offsetFromSymbolStart = "454">
-               </Location>
-               <Location
-                  uuid = "C9F7285B-FD71-4883-B2D7-FA33AC43AE9A - ff2f180b2686fed8"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "RecipeAppViperTests.MockServiceAPI.sendRequest&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(of: &#x3c4;_0_0.Type, url: Swift.String, completion: (Swift.Result&lt;&#x3c4;_0_0, Swift.Error&gt;) -&gt; ()) -&gt; ()"
-                  moduleName = "RecipeAppViperTests"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/ricardo/Documents/RecipeAppViper/RecipeAppViperTests/Networking/MockServiceAPI.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "31"
-                  endingLineNumber = "31"
-                  offsetFromSymbolStart = "423">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "1A6642C4-6A3A-4B95-B5C3-BD8D80490DA6"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "RecipeAppViperTests/Networking/MockServiceAPI.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "61"
-            endingLineNumber = "61"
-            landmarkName = "sendRequest(of:url:completion:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "1A6642C4-6A3A-4B95-B5C3-BD8D80490DA6 - ff2f180b2686fa3a"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "RecipeAppViperTests.MockServiceAPI.sendRequest&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(of: &#x3c4;_0_0.Type, url: Swift.String, completion: (Swift.Result&lt;&#x3c4;_0_0, Swift.Error&gt;) -&gt; ()) -&gt; ()"
-                  moduleName = "RecipeAppViperTests"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/ricardo/Documents/RecipeAppViper/RecipeAppViperTests/Networking/MockServiceAPI.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "61"
-                  endingLineNumber = "61"
-                  offsetFromSymbolStart = "1971">
-               </Location>
-               <Location
-                  uuid = "1A6642C4-6A3A-4B95-B5C3-BD8D80490DA6 - ff2f180b2686fa3a"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "RecipeAppViperTests.MockServiceAPI.sendRequest&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(of: &#x3c4;_0_0.Type, url: Swift.String, completion: (Swift.Result&lt;&#x3c4;_0_0, Swift.Error&gt;) -&gt; ()) -&gt; ()"
-                  moduleName = "RecipeAppViperTests"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/ricardo/Documents/RecipeAppViper/RecipeAppViperTests/Networking/MockServiceAPI.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "61"
-                  endingLineNumber = "61"
-                  offsetFromSymbolStart = "2223">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1044,42 +901,10 @@
             filePath = "RecipeAppViperTests/Networking/MockServiceAPI.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "58"
-            endingLineNumber = "58"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
             landmarkName = "sendRequest(of:url:completion:)"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "CBEB364C-77A5-4021-B8D9-234748D8F644 - ff2f180b2686fa57"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "RecipeAppViperTests.MockServiceAPI.sendRequest&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(of: &#x3c4;_0_0.Type, url: Swift.String, completion: (Swift.Result&lt;&#x3c4;_0_0, Swift.Error&gt;) -&gt; ()) -&gt; ()"
-                  moduleName = "RecipeAppViperTests"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/ricardo/Documents/RecipeAppViper/RecipeAppViperTests/Networking/MockServiceAPI.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "58"
-                  endingLineNumber = "58"
-                  offsetFromSymbolStart = "1570">
-               </Location>
-               <Location
-                  uuid = "CBEB364C-77A5-4021-B8D9-234748D8F644 - ff2f180b2686fa57"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "RecipeAppViperTests.MockServiceAPI.sendRequest&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(of: &#x3c4;_0_0.Type, url: Swift.String, completion: (Swift.Result&lt;&#x3c4;_0_0, Swift.Error&gt;) -&gt; ()) -&gt; ()"
-                  moduleName = "RecipeAppViperTests"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/ricardo/Documents/RecipeAppViper/RecipeAppViperTests/Networking/MockServiceAPI.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "58"
-                  endingLineNumber = "58"
-                  offsetFromSymbolStart = "1861">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1092,8 +917,8 @@
             filePath = "RecipeAppViperTests/Networking/MockServiceAPI.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "59"
-            endingLineNumber = "59"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
             landmarkName = "sendRequest(of:url:completion:)"
             landmarkType = "7">
          </BreakpointContent>

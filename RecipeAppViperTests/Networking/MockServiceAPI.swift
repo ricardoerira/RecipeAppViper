@@ -25,33 +25,6 @@ class MockServiceAPI: ServiceApiProtocol {
             "totalResults": 2
         ]
         
-        
-        
-        
-        
-        
-        
-        //            let mockResponse = """
-        //                {
-        //                    "results": [
-        //                        {
-        //                            "id": 654495,
-        //                            "title": "Pancakes"
-        //                            "image": "https://spoonacular.com/recipeImages/654495-312x231.jpg"
-        //
-        //                        },
-        //                        {
-        //                            "id": 656663,
-        //                            "title": "Pop Tart"
-        //                            "image": "https://spoonacular.com/recipeImages/654495-312x231.jpg"
-        //                        }
-        //                    ],
-        //                    "totalResults": 2
-        //                }
-        //                """
-        //  let responseData = mockResponse.data(using: .utf8)!
-    
-        
         do {
             let responseData = try JSONSerialization.data(withJSONObject: mockResponse, options: [])
             let decoder = JSONDecoder()
