@@ -8,16 +8,29 @@
 import Foundation
 import UIKit
 
-protocol RecipeDetailRouterProtocol {
-    func showRecipeDetail(fromViewController: UIViewController, recipeId: Int)
-}
-
 class RecipeDetailRouter : RecipeDetailRouterProtocol {
+    weak var viewController: UIViewController?
+
+    static func createModule(recipeId: Int) -> UIViewController {
+        let view = RecipeDetailViewController()
+        let presenter: RecipeDetailPresenterProtocol & RecipeDetailInteractorOutputProtocol = RecipeDetailPresenter()
+        let interactor = RecipeDetailInteractor(serviceApi: ServiceAPI())
+        var router: RecipeDetailRouterProtocol = RecipeDetailRouter()
+        presenter.mapper = RecipeDetailMapper()
+        presenter.extendIngredientlMapper = ExtendedIngredientMapper()
+        view.presenter = presenter
+        presenter.view = view
+        presenter.router = router
+        presenter.interactor = interactor
+        presenter.recipeId = recipeId
+        interactor.presenter = presenter
+        router.viewController = view
+        
+        return view
+    }
     
-    func showRecipeDetail(fromViewController: UIViewController, recipeId: Int) {
-        let presenter = RecipeDetailPresenter(recipeId: recipeId, recipeDetailInteractor: RecipeDetailInteractor(), recipeDetailMapper: RecipeDetailMapper(), ingredientsMapper: ExtendedIngredientMapper())
-        let view = RecipeDetailViewController(presenter: presenter)
-        presenter.delegate = view
-        fromViewController.present(view, animated: true)
+    func goToRecipeMap(recipeId: Int) {
+
+        viewController?.navigationController?.pushViewController( RecipeMapRouter.createModule(recipeId: recipeId), animated: true)
     }
 }

@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct RecipeListMapper {
+struct RecipeSearchMapper {
     func map(entities:  [RecipeEntity]) ->  [RecipeViewModel] {
         return entities.map { entity in
                return RecipeViewModel(id: entity.id, title: entity.title, imageUrl: URL(string: entity.image))

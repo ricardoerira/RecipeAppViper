@@ -135,38 +135,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "4282E977-FC3A-4DFE-AF46-763C688CE2EF"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "RecipeAppViper/Modules/RecipeList/Router/RecipeListRouter.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "24"
-            endingLineNumber = "24"
-            landmarkName = "showRecipeList(window:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "958679FE-47AD-4B97-A025-2FDFD8B0FEB7"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "RecipeAppViper/SceneDelegate.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "18"
-            endingLineNumber = "18"
-            landmarkName = "scene(_:willConnectTo:options:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "94AED4C2-82E1-42A9-B0F9-1A0C2407B597"
             shouldBeEnabled = "No"
             ignoreCount = "0"
@@ -174,8 +142,8 @@
             filePath = "RecipeAppViper/Modules/RecipeList/View/RecipesSearchViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "113"
-            endingLineNumber = "113"
+            startingLineNumber = "103"
+            endingLineNumber = "103"
             landmarkName = "searchBar(_:textDidChange:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -206,10 +174,10 @@
             filePath = "RecipeAppViper/Modules/RecipeList/Presenter/RecipesListPresenter.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "70"
-            endingLineNumber = "70"
+            startingLineNumber = "60"
+            endingLineNumber = "60"
             landmarkName = "getItemsCount()"
-            landmarkType = "7">
+            landmarkType = "9">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -222,74 +190,10 @@
             filePath = "RecipeAppViper/Modules/RecipeList/Presenter/RecipesListPresenter.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "79"
-            endingLineNumber = "79"
+            startingLineNumber = "69"
+            endingLineNumber = "69"
             landmarkName = "getItems()"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "71EB5822-5B22-4C7A-9997-19EE86C66806 - 13a42a767d684b04"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "RecipeAppViper.RecipesSearchPresenter.getItems() -&gt; Swift.Array&lt;RecipeAppViper.RecipeViewModel&gt;"
-                  moduleName = "RecipeAppViper"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/ricardo/Documents/RecipeAppViper/RecipeAppViper/Modules/RecipeList/Presenter/RecipesListPresenter.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "79"
-                  endingLineNumber = "79"
-                  offsetFromSymbolStart = "121">
-               </Location>
-               <Location
-                  uuid = "71EB5822-5B22-4C7A-9997-19EE86C66806 - df530b3afc1bdfc2"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "RecipeAppViperTests.RecipesSearchPresenter.getItems() -&gt; Swift.Array&lt;RecipeAppViperTests.RecipeViewModel&gt;"
-                  moduleName = "RecipeAppViperTests"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/ricardo/Documents/RecipeAppViper/RecipeAppViper/Modules/RecipeList/Presenter/RecipesListPresenter.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "79"
-                  endingLineNumber = "79"
-                  offsetFromSymbolStart = "121">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "DF4A1FED-4C44-4D0A-BAE8-D9C47EBD4CF8"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "RecipeAppViper/Modules/RecipeList/Presenter/RecipesListPresenter.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "52"
-            endingLineNumber = "52"
-            landmarkName = "searchItems(query:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "7E76B41F-AA95-4E8D-B733-F4FC7FC42B81"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "RecipeAppViper/Modules/RecipeList/Presenter/RecipesListPresenter.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "54"
-            endingLineNumber = "54"
-            landmarkName = "searchItems(query:)"
-            landmarkType = "7">
+            landmarkType = "9">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -302,9 +206,9 @@
             filePath = "RecipeAppViper/Modules/RecipeList/Interactor/RecipeListInteractor.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "20"
-            endingLineNumber = "20"
-            landmarkName = "fetchRecipesList(query:completion:)"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "searchRecipes(query:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -334,26 +238,10 @@
             filePath = "RecipeAppViper/Modules/RecipeList/Presenter/RecipesListPresenter.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "105"
-            endingLineNumber = "105"
+            startingLineNumber = "95"
+            endingLineNumber = "95"
             landmarkName = "goToRecipeDetail(index:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "BECCAC29-7A89-44C9-AC7D-E22F53C4CAC7"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "RecipeAppViper/Modules/RecipeDetail/Router/RecipeDetailRouter.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "18"
-            endingLineNumber = "18"
-            landmarkName = "showRecipeDetail(fromViewController:recipeId:)"
-            landmarkType = "7">
+            landmarkType = "9">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -366,49 +254,17 @@
             filePath = "RecipeAppViper/Modules/RecipeList/Router/RecipeListRouter.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "36"
-            endingLineNumber = "36"
-            landmarkName = "showRecipeDetail(recipeId:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "CF2F80B8-2AFA-4649-BAF2-8F58CEDB248E"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "RecipeAppViper/Modules/RecipeDetail/View/RecipeDetailViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "18"
-            endingLineNumber = "18"
-            landmarkName = "init(presenter:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "F088C991-B07C-4738-9A66-8D463BD864F8"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "RecipeAppViper/Modules/RecipeDetail/Router/RecipeDetailRouter.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "21"
-            endingLineNumber = "21"
-            landmarkName = "showRecipeDetail(fromViewController:recipeId:)"
-            landmarkType = "7">
+            startingLineNumber = "50"
+            endingLineNumber = "50"
+            landmarkName = "RecipeListRouter"
+            landmarkType = "3">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "725235A6-D98F-459B-B7EF-931010AC49A5"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RecipeAppViperTests/Networking/ServiceAPITest.swift"
@@ -494,55 +350,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "48"
             endingLineNumber = "48"
-            landmarkName = "testSendRequest_FailureDecodedResponse()"
+            landmarkName = "testSendRequest_SuccessResponse()"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "DA6D3078-42D9-4536-9DC2-8BB024DCFB14 - ac53fa9279e56c8"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Result&lt;Response, Swift.Error&gt;) -&gt; () in RecipeAppViperTests.ServiceAPITest.testSendRequest_FailureDecodedResponse() -&gt; ()"
-                  moduleName = "RecipeAppViperTests"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/ricardo/Documents/RecipeAppViper/RecipeAppViperTests/Networking/ServiceAPITest.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "64"
-                  endingLineNumber = "64"
-                  offsetFromSymbolStart = "227">
-               </Location>
-               <Location
-                  uuid = "DA6D3078-42D9-4536-9DC2-8BB024DCFB14 - ac53fa9279e56c8"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Result&lt;Response, Swift.Error&gt;) -&gt; () in RecipeAppViperTests.ServiceAPITest.testSendRequest_FailureDecodedResponse() -&gt; ()"
-                  moduleName = "RecipeAppViperTests"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/ricardo/Documents/RecipeAppViper/RecipeAppViperTests/Networking/ServiceAPITest.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "64"
-                  endingLineNumber = "64"
-                  offsetFromSymbolStart = "328">
-               </Location>
-               <Location
-                  uuid = "DA6D3078-42D9-4536-9DC2-8BB024DCFB14 - 79c616b50b811ccd"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Result&lt;RecipeAppViperTests.ServiceAPITest.FakeResponse, Swift.Error&gt;) -&gt; () in RecipeAppViperTests.ServiceAPITest.testSendRequest_FailureDecodedResponse() -&gt; ()"
-                  moduleName = "RecipeAppViperTests"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/ricardo/Documents/RecipeAppViper/RecipeAppViperTests/Networking/ServiceAPITest.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "48"
-                  endingLineNumber = "48"
-                  offsetFromSymbolStart = "328">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -557,55 +366,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "47"
             endingLineNumber = "47"
-            landmarkName = "testSendRequest_FailureDecodedResponse()"
+            landmarkName = "testSendRequest_SuccessResponse()"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "3FCEF424-B84F-46B6-AB05-4EEE5049ED1B - ac53fa9279e56c8"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Result&lt;Response, Swift.Error&gt;) -&gt; () in RecipeAppViperTests.ServiceAPITest.testSendRequest_FailureDecodedResponse() -&gt; ()"
-                  moduleName = "RecipeAppViperTests"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/ricardo/Documents/RecipeAppViper/RecipeAppViperTests/Networking/ServiceAPITest.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "64"
-                  endingLineNumber = "64"
-                  offsetFromSymbolStart = "227">
-               </Location>
-               <Location
-                  uuid = "3FCEF424-B84F-46B6-AB05-4EEE5049ED1B - ac53fa9279e56e9"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Result&lt;Response, Swift.Error&gt;) -&gt; () in RecipeAppViperTests.ServiceAPITest.testSendRequest_FailureDecodedResponse() -&gt; ()"
-                  moduleName = "RecipeAppViperTests"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/ricardo/Documents/RecipeAppViper/RecipeAppViperTests/Networking/ServiceAPITest.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "63"
-                  endingLineNumber = "63"
-                  offsetFromSymbolStart = "227">
-               </Location>
-               <Location
-                  uuid = "3FCEF424-B84F-46B6-AB05-4EEE5049ED1B - 79c616b50b811cec"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Result&lt;RecipeAppViperTests.ServiceAPITest.FakeResponse, Swift.Error&gt;) -&gt; () in RecipeAppViperTests.ServiceAPITest.testSendRequest_FailureDecodedResponse() -&gt; ()"
-                  moduleName = "RecipeAppViperTests"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/ricardo/Documents/RecipeAppViper/RecipeAppViperTests/Networking/ServiceAPITest.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "47"
-                  endingLineNumber = "47"
-                  offsetFromSymbolStart = "227">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -620,55 +382,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "52"
             endingLineNumber = "52"
-            landmarkName = "testSendRequest_FailureDecodedResponse()"
+            landmarkName = "testSendRequest_SuccessResponse()"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "58855CA1-3A84-4574-8900-A5923D8C7C5B - ac53fa9279e574c"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Result&lt;Response, Swift.Error&gt;) -&gt; () in RecipeAppViperTests.ServiceAPITest.testSendRequest_FailureDecodedResponse() -&gt; ()"
-                  moduleName = "RecipeAppViperTests"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/ricardo/Documents/RecipeAppViper/RecipeAppViperTests/Networking/ServiceAPITest.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "68"
-                  endingLineNumber = "68"
-                  offsetFromSymbolStart = "839">
-               </Location>
-               <Location
-                  uuid = "58855CA1-3A84-4574-8900-A5923D8C7C5B - ac53fa9279e574c"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Result&lt;Response, Swift.Error&gt;) -&gt; () in RecipeAppViperTests.ServiceAPITest.testSendRequest_FailureDecodedResponse() -&gt; ()"
-                  moduleName = "RecipeAppViperTests"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/ricardo/Documents/RecipeAppViper/RecipeAppViperTests/Networking/ServiceAPITest.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "68"
-                  endingLineNumber = "68"
-                  offsetFromSymbolStart = "1071">
-               </Location>
-               <Location
-                  uuid = "58855CA1-3A84-4574-8900-A5923D8C7C5B - 79c616b50b811d49"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Result&lt;RecipeAppViperTests.ServiceAPITest.FakeResponse, Swift.Error&gt;) -&gt; () in RecipeAppViperTests.ServiceAPITest.testSendRequest_FailureDecodedResponse() -&gt; ()"
-                  moduleName = "RecipeAppViperTests"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/ricardo/Documents/RecipeAppViper/RecipeAppViperTests/Networking/ServiceAPITest.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "52"
-                  endingLineNumber = "52"
-                  offsetFromSymbolStart = "1071">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -683,55 +398,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "56"
             endingLineNumber = "56"
-            landmarkName = "testSendRequest_FailureDecodedResponse()"
+            landmarkName = "testSendRequest_SuccessResponse()"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "2A241D21-0C0A-42EA-B965-3AF43309E070 - 7826100bc0c42a6f"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "RecipeAppViperTests.ServiceAPITest.testSendRequest_FailureDecodedResponse() -&gt; ()"
-                  moduleName = "RecipeAppViperTests"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/ricardo/Documents/RecipeAppViper/RecipeAppViperTests/Networking/ServiceAPITest.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "73"
-                  endingLineNumber = "73"
-                  offsetFromSymbolStart = "387">
-               </Location>
-               <Location
-                  uuid = "2A241D21-0C0A-42EA-B965-3AF43309E070 - 7826100bc0c42a4c"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "RecipeAppViperTests.ServiceAPITest.testSendRequest_FailureDecodedResponse() -&gt; ()"
-                  moduleName = "RecipeAppViperTests"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/ricardo/Documents/RecipeAppViper/RecipeAppViperTests/Networking/ServiceAPITest.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "72"
-                  endingLineNumber = "72"
-                  offsetFromSymbolStart = "387">
-               </Location>
-               <Location
-                  uuid = "2A241D21-0C0A-42EA-B965-3AF43309E070 - 7826100bc0c4283c"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "RecipeAppViperTests.ServiceAPITest.testSendRequest_FailureDecodedResponse() -&gt; ()"
-                  moduleName = "RecipeAppViperTests"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/ricardo/Documents/RecipeAppViper/RecipeAppViperTests/Networking/ServiceAPITest.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "56"
-                  endingLineNumber = "56"
-                  offsetFromSymbolStart = "368">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -879,7 +547,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "1A6642C4-6A3A-4B95-B5C3-BD8D80490DA6"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RecipeAppViperTests/Networking/MockServiceAPI.swift"
@@ -895,7 +563,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "CBEB364C-77A5-4021-B8D9-234748D8F644"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RecipeAppViperTests/Networking/MockServiceAPI.swift"
@@ -911,7 +579,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "06C91F7F-47C2-47AF-900B-CE51EFB5E620"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RecipeAppViperTests/Networking/MockServiceAPI.swift"
@@ -920,6 +588,786 @@
             startingLineNumber = "32"
             endingLineNumber = "32"
             landmarkName = "sendRequest(of:url:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AD964376-3251-4317-81ED-9EBC98138522"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RecipeAppViper/Modules/RecipeList/View/RecipesSearchViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1AD49E54-71EA-4C1F-9DF0-495F6ABF2D5C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RecipeAppViper/Modules/RecipeList/View/RecipesSearchViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BF5511BC-7415-491A-BA55-22CC7C375C5A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RecipeAppViper/Modules/RecipeList/Interactor/RecipeListInteractor.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "searchRecipes(query:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AA4DD870-A2FF-4064-A683-5E66F4D8934C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RecipeAppViper/Modules/RecipeList/Interactor/RecipeListInteractor.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "searchRecipes(query:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0F2DEAF9-BC78-4ABE-9472-F74C11E3F661"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RecipeAppViper/Modules/RecipeList/Presenter/RecipesSearchPresenter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "100"
+            endingLineNumber = "100"
+            landmarkName = "presentRecipes(recipes:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "32A905F1-C36A-4F4D-BFDA-387710ECA8F7"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RecipeAppViper/Modules/RecipeList/View/RecipesSearchViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "79"
+            endingLineNumber = "79"
+            landmarkName = "onSearchResultsReceived()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "24E3FE68-8560-448C-B1EE-77C84C02DBD6"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RecipeAppViper/Modules/RecipeDetail/Presenter/RecipeDetailPresenter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "70"
+            endingLineNumber = "70"
+            landmarkName = "presentRecipeDetail(recipe:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "196D2333-D292-4D98-AB8F-19B79372ABED"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RecipeAppViper/Modules/RecipeDetail/Presenter/RecipeDetailPresenter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "71"
+            endingLineNumber = "71"
+            landmarkName = "presentRecipeDetail(recipe:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7EBAF4D0-E45C-4826-9A77-D0D02071C192"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RecipeAppViperTests/Modules/RecipeSearch/Presenter/RecipeSearchPresenterTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "testSearchProductNoFetch()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "7EBAF4D0-E45C-4826-9A77-D0D02071C192 - 645ad79ad771b95"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RecipeAppViperTests.RecipeSearchPresenterTests.testSearchProductNoFetch() -&gt; ()"
+                  moduleName = "RecipeAppViperTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ricardo/Documents/RecipeAppViper/RecipeAppViperTests/Modules/RecipeSearch/Presenter/RecipeSearchPresenterTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "287">
+               </Location>
+               <Location
+                  uuid = "7EBAF4D0-E45C-4826-9A77-D0D02071C192 - 645ad79ad771bb6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RecipeAppViperTests.RecipeSearchPresenterTests.testSearchProductNoFetch() -&gt; ()"
+                  moduleName = "RecipeAppViperTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ricardo/Documents/RecipeAppViper/RecipeAppViperTests/Modules/RecipeSearch/Presenter/RecipeSearchPresenterTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "216">
+               </Location>
+               <Location
+                  uuid = "7EBAF4D0-E45C-4826-9A77-D0D02071C192 - 645ad79ad771bb6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RecipeAppViperTests.RecipeSearchPresenterTests.testSearchProductNoFetch() -&gt; ()"
+                  moduleName = "RecipeAppViperTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ricardo/Documents/RecipeAppViper/RecipeAppViperTests/Modules/RecipeSearch/Presenter/RecipeSearchPresenterTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "287">
+               </Location>
+               <Location
+                  uuid = "7EBAF4D0-E45C-4826-9A77-D0D02071C192 - 645ad79ad771a32"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RecipeAppViperTests.RecipeSearchPresenterTests.testSearchProductNoFetch() -&gt; ()"
+                  moduleName = "RecipeAppViperTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ricardo/Documents/RecipeAppViper/RecipeAppViperTests/Modules/RecipeSearch/Presenter/RecipeSearchPresenterTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "287">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2D12E559-AE01-40C0-B990-C0327F1FA083"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RecipeAppViper/Modules/RecipeSearch/Presenter/RecipeSearchPresenter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "searchItems(query:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7BCA9EDE-A2FC-4976-AFF1-63767BBE5C52"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RecipeAppViper/Modules/RecipeSearch/Interactor/RecipeSearchInteractor.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "searchRecipes(query:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "959CDE17-97F6-4101-B56A-6AAF2E1F2B32"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RecipeAppViper/Modules/RecipeSearch/Presenter/RecipeSearchPresenter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "79"
+            endingLineNumber = "79"
+            landmarkName = "presentRecipes(recipes:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A9560DA3-9901-4E3D-A5BD-E2513A8DB814"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RecipeAppViperTests/Modules/RecipeSearch/RecipeSearchMocks.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "searchRecipes(query:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6D0829AB-DE72-4C67-956C-0847DF2EC068"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RecipeAppViperTests/Modules/RecipeSearch/RecipeSearchMocks.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
+            landmarkName = "onSearchResultsReceived()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "6D0829AB-DE72-4C67-956C-0847DF2EC068 - 2bd6d7acc4287281"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RecipeAppViperTests.RecipeSearchViewMock.onSearchResultsReceived() -&gt; ()"
+                  moduleName = "RecipeAppViperTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ricardo/Documents/RecipeAppViper/RecipeAppViperTests/Modules/RecipeSearch/RecipeSearchMocks.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "48"
+                  endingLineNumber = "48"
+                  offsetFromSymbolStart = "38">
+               </Location>
+               <Location
+                  uuid = "6D0829AB-DE72-4C67-956C-0847DF2EC068 - 2bd6d7acc4287281"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RecipeAppViperTests.RecipeSearchViewMock.onSearchResultsReceived() -&gt; ()"
+                  moduleName = "RecipeAppViperTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ricardo/Documents/RecipeAppViper/RecipeAppViperTests/Modules/RecipeSearch/RecipeSearchMocks.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "48"
+                  endingLineNumber = "48"
+                  offsetFromSymbolStart = "20">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D78C2071-D38B-4885-A262-0CFF8C3C119D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RecipeAppViperTests/Modules/RecipeSearch/RecipeSearchMocks.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "goToRecipeDetail(recipeId:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "092B4726-D2D3-4E06-B136-E01684D3FE45"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RecipeAppViperTests/Modules/RecipeSearch/Presenter/RecipeSearchPresenterTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
+            landmarkName = "testGoToProductDetail()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "092B4726-D2D3-4E06-B136-E01684D3FE45 - 753f9d00169ef669"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RecipeAppViperTests.RecipeSearchPresenterTests.testGoToProductDetail() -&gt; ()"
+                  moduleName = "RecipeAppViperTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ricardo/Documents/RecipeAppViper/RecipeAppViperTests/Modules/RecipeSearch/Presenter/RecipeSearchPresenterTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
+                  offsetFromSymbolStart = "447">
+               </Location>
+               <Location
+                  uuid = "092B4726-D2D3-4E06-B136-E01684D3FE45 - 753f9d00169ef60a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RecipeAppViperTests.RecipeSearchPresenterTests.testGoToProductDetail() -&gt; ()"
+                  moduleName = "RecipeAppViperTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ricardo/Documents/RecipeAppViper/RecipeAppViperTests/Modules/RecipeSearch/Presenter/RecipeSearchPresenterTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "54"
+                  endingLineNumber = "54"
+                  offsetFromSymbolStart = "447">
+               </Location>
+               <Location
+                  uuid = "092B4726-D2D3-4E06-B136-E01684D3FE45 - 753f9d00169ef78e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RecipeAppViperTests.RecipeSearchPresenterTests.testGoToProductDetail() -&gt; ()"
+                  moduleName = "RecipeAppViperTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ricardo/Documents/RecipeAppViper/RecipeAppViperTests/Modules/RecipeSearch/Presenter/RecipeSearchPresenterTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "58"
+                  endingLineNumber = "58"
+                  offsetFromSymbolStart = "447">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "04867392-A699-4895-A648-393CCEAE1E3C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RecipeAppViper/Modules/RecipeSearch/Presenter/RecipeSearchPresenter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "69"
+            endingLineNumber = "69"
+            landmarkName = "goToRecipeDetail(index:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F5B4591A-A077-4DFE-9ACB-0A51CB2B3230"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RecipeAppViper/Modules/RecipeSearch/Presenter/RecipeSearchPresenter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "66"
+            endingLineNumber = "66"
+            landmarkName = "goToRecipeDetail(index:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D803E057-7E30-49AF-8F07-5FBAD2523E9A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RecipeAppViper/Modules/RecipeSearch/Presenter/RecipeSearchPresenter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "57"
+            endingLineNumber = "57"
+            landmarkName = "getItemIdbyIndex(index:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "D803E057-7E30-49AF-8F07-5FBAD2523E9A - 80ec155afa55860b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RecipeAppViper.RecipeSearchPresenter.getItemIdbyIndex(index: Swift.Int) throws -&gt; Swift.Int"
+                  moduleName = "RecipeAppViper"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ricardo/Documents/RecipeAppViper/RecipeAppViper/Modules/RecipeSearch/Presenter/RecipeSearchPresenter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "57"
+                  endingLineNumber = "57"
+                  offsetFromSymbolStart = "325">
+               </Location>
+               <Location
+                  uuid = "D803E057-7E30-49AF-8F07-5FBAD2523E9A - 80ec155afa55860b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RecipeAppViper.RecipeSearchPresenter.getItemIdbyIndex(index: Swift.Int) throws -&gt; Swift.Int"
+                  moduleName = "RecipeAppViper"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ricardo/Documents/RecipeAppViper/RecipeAppViper/Modules/RecipeSearch/Presenter/RecipeSearchPresenter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "57"
+                  endingLineNumber = "57"
+                  offsetFromSymbolStart = "374">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "205AB577-3813-448B-AEC7-8E9BEBF17616"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RecipeAppViper/Modules/RecipeSearch/Presenter/RecipeSearchPresenter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "60"
+            endingLineNumber = "60"
+            landmarkName = "getItemIdbyIndex(index:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AE5FF5BC-8C88-4936-B98A-03955A849039"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RecipeAppViperTests/Modules/RecipeSearch/Presenter/RecipeSearchPresenterTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "64"
+            endingLineNumber = "64"
+            landmarkName = "RecipeSearchPresenterTests"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9DFA8E1F-6BB6-4127-993B-4922C6FE22B8"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RecipeAppViperTests/Networking/ServiceAPITest.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "testSendRequest_SuccessResponse()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "9DFA8E1F-6BB6-4127-993B-4922C6FE22B8 - 5a4b131b83de489f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;RecipeAppViperTests.RecipesListEntity, Swift.Error&gt;) -&gt; () in RecipeAppViperTests.ServiceAPITest.testSendRequest_SuccessResponse() -&gt; ()"
+                  moduleName = "RecipeAppViperTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ricardo/Documents/RecipeAppViper/RecipeAppViperTests/Networking/ServiceAPITest.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "661">
+               </Location>
+               <Location
+                  uuid = "9DFA8E1F-6BB6-4127-993B-4922C6FE22B8 - 5a4b131b83de489f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;RecipeAppViperTests.RecipesListEntity, Swift.Error&gt;) -&gt; () in RecipeAppViperTests.ServiceAPITest.testSendRequest_SuccessResponse() -&gt; ()"
+                  moduleName = "RecipeAppViperTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ricardo/Documents/RecipeAppViper/RecipeAppViperTests/Networking/ServiceAPITest.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "485">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "17852E50-D06E-4CD8-9FFD-23C833E701BC"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RecipeAppViperTests/Networking/ServiceAPITest.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "testSendRequest_SuccessResponse()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "17852E50-D06E-4CD8-9FFD-23C833E701BC - 84455ebfb29c628e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RecipeAppViperTests.ServiceAPITest.testSendRequest_SuccessResponse() -&gt; ()"
+                  moduleName = "RecipeAppViperTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ricardo/Documents/RecipeAppViper/RecipeAppViperTests/Networking/ServiceAPITest.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "498">
+               </Location>
+               <Location
+                  uuid = "17852E50-D06E-4CD8-9FFD-23C833E701BC - 84455ebfb29c62af"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RecipeAppViperTests.ServiceAPITest.testSendRequest_SuccessResponse() -&gt; ()"
+                  moduleName = "RecipeAppViperTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ricardo/Documents/RecipeAppViper/RecipeAppViperTests/Networking/ServiceAPITest.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "387">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "78190F7C-C220-43FF-81A1-723029533A76"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RecipeAppViperTests/Networking/ServiceAPITest.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "testSendRequest_SuccessResponse()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "985955C6-8245-4F08-87D8-100DF4B02AFA"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RecipeAppViperTests/Modules/RecipeSearch/Interactor/RecipeListInteractorTest.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "testFetchRecipesList_Successful()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "985955C6-8245-4F08-87D8-100DF4B02AFA - 55aa5880aece96eb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;RecipeAppViperTests.RecipesListEntity, Swift.Error&gt;) -&gt; () in RecipeAppViperTests.RecipeSearchInteractorTests.testFetchRecipesList_Successful() -&gt; ()"
+                  moduleName = "RecipeAppViperTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ricardo/Documents/RecipeAppViper/RecipeAppViperTests/Modules/RecipeSearch/Interactor/RecipeListInteractorTest.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "47"
+                  endingLineNumber = "47"
+                  offsetFromSymbolStart = "702">
+               </Location>
+               <Location
+                  uuid = "985955C6-8245-4F08-87D8-100DF4B02AFA - 55aa5880aece9688"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;RecipeAppViperTests.RecipesListEntity, Swift.Error&gt;) -&gt; () in RecipeAppViperTests.RecipeSearchInteractorTests.testFetchRecipesList_Successful() -&gt; ()"
+                  moduleName = "RecipeAppViperTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ricardo/Documents/RecipeAppViper/RecipeAppViperTests/Modules/RecipeSearch/Interactor/RecipeListInteractorTest.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "48"
+                  endingLineNumber = "48"
+                  offsetFromSymbolStart = "631">
+               </Location>
+               <Location
+                  uuid = "985955C6-8245-4F08-87D8-100DF4B02AFA - 55aa5880aece9688"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;RecipeAppViperTests.RecipesListEntity, Swift.Error&gt;) -&gt; () in RecipeAppViperTests.RecipeSearchInteractorTests.testFetchRecipesList_Successful() -&gt; ()"
+                  moduleName = "RecipeAppViperTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ricardo/Documents/RecipeAppViper/RecipeAppViperTests/Modules/RecipeSearch/Interactor/RecipeListInteractorTest.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "48"
+                  endingLineNumber = "48"
+                  offsetFromSymbolStart = "669">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F50B3D99-F918-4FA5-A926-93FD93DFA796"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RecipeAppViper/Modules/RecipeMap/Interactor/RecipeMapInteractor.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "getRecipeMap(for:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "162C6315-EB19-41F4-B389-9CE121ECDA3C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RecipeAppViper/Modules/RecipeMap/Presenter/RecipeMapPresenter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "presentRecipeMap(recipe:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9AFFA6DC-8BA7-473D-B029-AE0D9AE9E3E2"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RecipeAppViper/Modules/RecipeMap/Interactor/RecipeMapInteractor.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "getRecipeMap(for:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "311AEF49-7E99-4634-9D4A-4F5952F77163"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RecipeAppViper/Modules/RecipeMap/Interactor/RecipeMapInteractor.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "getRecipeMap(for:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "54F8854A-F23A-48DE-A7BA-9429F15CF853"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RecipeAppViper/Modules/RecipeSearch/Presenter/RecipeSearchPresenter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "searchItems(query:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0946C197-A5B1-4466-93E4-44F5D8E94481"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RecipeAppViper/Modules/RecipeMap/View/RecipeMapViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "setupCurrentRecipe()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

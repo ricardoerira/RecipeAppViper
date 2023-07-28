@@ -27,7 +27,7 @@
                         <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="ekp-40-uHX">
                             <rect key="frame" x="0.0" y="0.0" width="394" height="31"/>
                             <subviews>
-                                <searchBar contentMode="redraw" placeholder="Search city" translatesAutoresizingMaskIntoConstraints="NO" id="WHZ-D4-5k5">
+                                <searchBar contentMode="redraw" placeholder="Search recipes" translatesAutoresizingMaskIntoConstraints="NO" id="WHZ-D4-5k5">
                                     <rect key="frame" x="0.0" y="0.0" width="338.5" height="31"/>
                                     <color key="backgroundColor" systemColor="systemYellowColor"/>
                                     <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="0.4187393707" colorSpace="custom" customColorSpace="sRGB"/>

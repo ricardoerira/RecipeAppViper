@@ -14,7 +14,7 @@ class RecipesSearchViewController: UIViewController {
     @IBOutlet weak var recipesSearchBar: UISearchBar!
     @IBOutlet weak var recipesTableView: UITableView!
     @IBOutlet weak var activityIndicator: UIActivityIndicatorView!
-    var presenter : RecipesSearchPresentable
+    var presenter : RecipeSearchPresenterProtocol?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -23,25 +23,15 @@ class RecipesSearchViewController: UIViewController {
         self.prepareViews()
     }
     
-    init(presenter: RecipesSearchPresentable) {
-        self.presenter = presenter
-        super.init(nibName: nil, bundle: nil)
-        super.viewDidLoad()
-    }
-    
-    required init?(coder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
-    }
-    
     // MARK: Setup Views
     func prepareViews() {
-        recipesTableView.layer.cornerRadius = Constants.cornerRadius;
-        recipesSearchBar.layer.cornerRadius = Constants.cornerRadius;
+        recipesTableView.layer.cornerRadius = Constants.CornerRadius;
+        recipesSearchBar.layer.cornerRadius = Constants.CornerRadius;
         activityIndicator.isHidden = true
         
         recipesTableView.register(
-            UINib(nibName: Constants.itemCellIdentifier, bundle: Bundle.main),
-            forCellReuseIdentifier: Constants.itemCellIdentifier)
+            UINib(nibName: Constants.ItemCellIdentifier, bundle: Bundle.main),
+            forCellReuseIdentifier: Constants.ItemCellIdentifier)
     }
     
     func setupTableViewDataSource() {
@@ -51,7 +41,7 @@ class RecipesSearchViewController: UIViewController {
     func setupDelegates() {
         recipesSearchBar.delegate = self
         recipesTableView.delegate = self
-        presenter.delegate = self
+        presenter?.view = self
     }
     
     // MARK: Activity Indicator
@@ -70,13 +60,13 @@ class RecipesSearchViewController: UIViewController {
             if (!query.isEmpty) {
                 clearTableView()
                 showLoading()
-                presenter.searchItems(query: query)
+                presenter?.searchItems(query: query)
             }
         }
     }
 }
 
-extension RecipesSearchViewController: RecipesSearchPresenterDelegate {
+extension RecipesSearchViewController: RecipeSearchViewProtocol {
     
     func clearTableView() {
         recipesTableView.reloadData()
@@ -111,12 +101,12 @@ extension RecipesSearchViewController: UISearchBarDelegate {
     
     func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
         if searchText == "" {
-            self.presenter.clearItems()
+            self.presenter?.clearItems()
         }
         else  {
             clearTableView()
             showLoading()
-            presenter.searchItems(query: searchText)
+            presenter?.searchItems(query: searchText)
         }
     }
 }
@@ -124,17 +114,17 @@ extension RecipesSearchViewController: UISearchBarDelegate {
 // MARK: UITableViewDelegate  UITableViewDataSource 
 extension RecipesSearchViewController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return self.presenter.getItemsCount()
+        return self.presenter?.getItemsCount() ?? 0
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        presenter.goToRecipeDetail(index: indexPath.row)
+        presenter?.goToRecipeDetail(index: indexPath.row)
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: Constants.itemCellIdentifier, for: indexPath) as! RecipeCell
+        let cell = tableView.dequeueReusableCell(withIdentifier: Constants.ItemCellIdentifier, for: indexPath) as! RecipeCell
         
-        if let item = self.presenter.getItem(index: indexPath.row) {
+        if let item = self.presenter?.getItem(index: indexPath.row) {
             cell.setupCell(item)
         }
         return cell

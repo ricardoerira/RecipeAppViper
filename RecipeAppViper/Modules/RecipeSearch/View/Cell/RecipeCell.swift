@@ -30,7 +30,7 @@ final class RecipeCell: UITableViewCell {
         self.layer.cornerRadius = 10;
         backgroundColor = UIColor.clear
         selectionStyle = .none
-        titleLabel.text = Constants.emptyString
+        titleLabel.text = Constants.EmptyString
         recipeImageView.roundImageView()
     }
     

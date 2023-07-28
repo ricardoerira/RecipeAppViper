@@ -5,6 +5,8 @@
   
   2.RecipeDetail
 
+  2.RecipeMap
+
   
 ## View 
 — Responsibility of view is to send user actions to the presenter and show whatever the presenter asks it to. In our case we next the classes:

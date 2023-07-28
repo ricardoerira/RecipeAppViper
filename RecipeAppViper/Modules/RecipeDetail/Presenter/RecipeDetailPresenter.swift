@@ -7,59 +7,25 @@
 
 import Foundation
 
-protocol RecipeDetailPresenterDelegate: AnyObject {
-    func onSearchResultsReceived()
-    func displayServiceError(_ error: Error)
-}
-
-protocol RecipeDetailPresentable: AnyObject {
-    var delegate: RecipeDetailPresenterDelegate? { get set }
-    var recipeId: Int? { get }
-    func showRecipeDetail()
-    func getRecipesCount() -> Int
-    func getRecipes() -> [ExtendedIngredientViewModel]
-    func getRecipesbyIndex(index: Int) -> ExtendedIngredientViewModel?
-    func setupCurrentRecipe() -> RecipeDetailViewModel?
-}
-
-
-class RecipeDetailPresenter : RecipeDetailPresentable {
-    var recipeId: Int?
-    weak var delegate: RecipeDetailPresenterDelegate?
-    private let itemService : ServiceApiProtocol = ServiceAPI()
-    private let recipeDetailInteractor: RecipeDetailInteractor
+class RecipeDetailPresenter : RecipeDetailPresenterProtocol {
+   
+    
+    var interactor: RecipeDetailInteractorInputProtocol?
+    weak var view: RecipeDetailViewProtocol?
+    var router: RecipeDetailRouterProtocol?
     private var recipeDetailViewModel: RecipeDetailViewModel?
-    private let recipeDetailMapper: RecipeDetailMapper
-    private let extendIngredientlMapper: ExtendedIngredientMapper
     
-    
-    init(recipeId: Int,recipeDetailInteractor: RecipeDetailInteractor = RecipeDetailInteractor(), recipeDetailMapper: RecipeDetailMapper = RecipeDetailMapper(), ingredientsMapper: ExtendedIngredientMapper = ExtendedIngredientMapper()) {
-        self.recipeId = recipeId
-        self.recipeDetailInteractor = recipeDetailInteractor
-        self.recipeDetailMapper = recipeDetailMapper
-        self.extendIngredientlMapper = ingredientsMapper
-    }
+    var mapper: RecipeDetailMapper?
+    var extendIngredientlMapper: ExtendedIngredientMapper?
+    var recipeId: Int?
     
     func showRecipeDetail() {
-        guard let cityName = recipeId else {
+        guard let recipeId = recipeId else {
             return
         }
         
-        recipeDetailInteractor.fetchRecipeDetailData(for: cityName) {[weak self] result in
-            guard let self = self else {
-                return
-            }
-            
-            switch result {
-            case .success(let recipeDetailResponse):
-                let models = recipeDetailResponse
-                self.recipeDetailViewModel = self.recipeDetailMapper.map(entity: models)
-                self.recipeDetailViewModel?.extendedIngredients = self.extendIngredientlMapper.map(entities: models.ingredients)
-                self.delegate?.onSearchResultsReceived()
-            case .failure(let error):
-                self.delegate?.displayServiceError(error)
-            }
-        }
+        interactor?.getRecipeDetail(for: recipeId)
+
     }
     
     func getRecipesCount() -> Int {
@@ -89,5 +55,23 @@ class RecipeDetailPresenter : RecipeDetailPresentable {
     
     func setupCurrentRecipe() -> RecipeDetailViewModel? {
         return self.recipeDetailViewModel
+    }
+    
+    func goToRecipeMap(index: Int) {
+        router?.goToRecipeMap(recipeId: index)
+    }
+}
+
+
+
+extension RecipeDetailPresenter : RecipeDetailInteractorOutputProtocol {
+    func presentRecipeDetail(recipe: RecipeDetailEntity) {
+        self.recipeDetailViewModel = self.mapper?.map(entity: recipe)
+        self.recipeDetailViewModel?.extendedIngredients = self.extendIngredientlMapper?.map(entities: recipe.ingredients) ?? []
+        self.view?.onSearchResultsReceived()
+    }
+    
+    func presentServiceError(_ error: Error) {
+        self.view?.displayServiceError(error)
     }
 }

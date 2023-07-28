@@ -17,7 +17,7 @@ struct RecipesListEntity: Codable {
 
 
 
-struct RecipeEntity:  Decodable & Encodable {
+struct RecipeEntity:  Codable {
     let id: Int
     let title: String
     let image: String

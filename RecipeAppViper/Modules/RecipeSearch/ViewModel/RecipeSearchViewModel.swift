@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct RecipeListViewModel {
+struct RecipeSearchViewModel {
     var results: [RecipeEntity]
 }
 

@@ -8,18 +8,15 @@
 import UIKit
 
 enum Constants {
-    static let emptyString = ""
-    static let itemCellIdentifier = "RecipeCell"
-    static let ingredientsCellIdentifier = "IngredientsCell"
-    static let cornerRadius : CGFloat = 10
+    static let EmptyString = ""
+    static let ItemCellIdentifier = "RecipeCell"
+    static let IngredientsCellIdentifier = "IngredientsCell"
+    static let CornerRadius : CGFloat = 10
     static let apiKey = "apiKey=c08c11d3b5b54b30833c79f93cb7d6b4"
-    static let host = "https://api.spoonacular.com/recipes/"
+    static let hostReicipe = "https://api.spoonacular.com/recipes/"
+    static let hostMap = "https://demo0147737.mockable.io/"
+
     static let RecipesSearchEndpoint = "complexSearch?"
     static let RecipeDetailEndpoint = "information?"
-    static let daysParameter = "&days="
-    static let numberDays = "3"
-    static let Low = "Low\n"
-    static let Hight = "Hight\n"
-    static let Http = "https:"
-
+    static let RecipeMapEndpoint = "recipesMap"
 }

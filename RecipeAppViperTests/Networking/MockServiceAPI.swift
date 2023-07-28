@@ -29,13 +29,9 @@ class MockServiceAPI: ServiceApiProtocol {
             let responseData = try JSONSerialization.data(withJSONObject: mockResponse, options: [])
             let decoder = JSONDecoder()
             let entity = try decoder.decode(T.self, from: responseData)
-            completion(.success(entity as! T))
+            completion(.success(entity))
         } catch {
             completion(.failure(error))
         }
-        //        } else {
-        //            let error = NSError(domain: "MockErrorDomain", code: 123, userInfo: nil)
-        //            completion(.failure(error))
-        //        }
     }
 }
